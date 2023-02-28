@@ -1,0 +1,24 @@
+body {
+  background-color: #889cb8;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  text-align: center;
+}
+header {
+    color: #333;
+    font-size: 17px;
+    text-align: center;
+  }
+
+.moo {
+     background-color: rgb(149, 148, 155);
+     border: 1px solid #000000;
+}
+
+img {
+    margin-top: 20px;
+}
