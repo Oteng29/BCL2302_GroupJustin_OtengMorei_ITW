@@ -1,24 +1,45 @@
 body {
-  background-color: #889cb8;
+  background-color: #c0c0e4;
   font-family: Arial, sans-serif;
+  margin: 0px;
 }
 
-h1 {
-  color: #333;
-  font-size: 36px;
+header {
+  color: #ffffff;
+  font-size: 14px;
   text-align: center;
 }
-header {
-    color: #333;
-    font-size: 17px;
-    text-align: center;
-  }
 
 .moo {
-     background-color: rgb(149, 148, 155);
-     border: 1px solid #000000;
+  background-color: rgb(22, 27, 66);
+  border: 1px solid #dfd4d4;
 }
 
 img {
-    margin-top: 20px;
+  margin-top: 20px;
+  height: 120px;
+  width: 120px;
+  border-radius: 130px;
+  background-color: rgb(149, 148, 155);
+  border: 2px solid #fffbfb;
+}
+
+aside {
+  background-color: #fef9f9;
+  margin-right: 60%;
+  padding: 1px
+  
+}
+
+article{
+  margin: 10%;
+  
+  
+}
+
+
+footer {
+  margin: 10%;
+  text-align: center;
+  padding: 10px;
 }
