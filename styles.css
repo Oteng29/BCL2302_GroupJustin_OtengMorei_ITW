@@ -1,40 +1,39 @@
 body {
-  background-color: #c0c0e4;
-  font-family: Arial, sans-serif;
   margin: 0px;
 }
 
-header {
-  color: #ffffff;
-  font-size: 14px;
-  text-align: center;
+main {
+  display: flex;
+  flex-direction: row;
 }
 
-.moo {
-  background-color: rgb(22, 27, 66);
-  border: 1px solid #dfd4d4;
+#left-section {
+  width: 35%;
+  background-color: rgb(192, 154, 185);
+}
+
+#right-section {
+  width: 70%;
+  background-color: rgb(186, 183, 187);
 }
 
 img {
   margin-top: 20px;
+  margin-top: 30px;
   height: 120px;
   width: 120px;
   border-radius: 130px;
   background-color: rgb(149, 148, 155);
-  border: 2px solid #fffbfb;
+  border: 2px solid #fffbfb; }
+
+h1 {
+  text-align: center;
 }
 
-aside {
-  background-color: #fef9f9;
-  margin-right: 60%;
-  padding: 1px
-  
-}
-
-article{
-  margin: 10%;
-  
-  
+section {
+  margin: 0%;
+  text-align: center;
+  padding: 2px;
 }
 
 
@@ -42,4 +41,13 @@ footer {
   margin: 10%;
   text-align: center;
   padding: 10px;
+}
+
+aside {
+margin-top: 60%;
+}
+
+header {
+margin-top: 60%;
+
 }
