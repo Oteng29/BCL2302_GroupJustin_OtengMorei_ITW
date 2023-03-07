@@ -13,8 +13,8 @@ main {
 }
 
 #right-section {
-  width: 70%;
-  background-color: rgb(186, 183, 187);
+  width: 60%;
+  background-color: rgb(131, 130, 132);
 }
 
 img {
@@ -23,7 +23,7 @@ img {
   height: 120px;
   width: 120px;
   border-radius: 130px;
-  background-color: rgb(149, 148, 155);
+  background-color: rgb(78, 78, 78);
   border: 2px solid #fffbfb; }
 
 h1 {
@@ -50,4 +50,9 @@ margin-top: 60%;
 header {
 margin-top: 60%;
 
+}
+footer {
+  background-color: rgb(220, 186, 213);
+  margin: 0%;
+  
 }
