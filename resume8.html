@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="profile-pic">
+                    <picture>
+                        <source media="(max-width:650px)" srcset=Images/FaceImage.jpg>
+                        <source media="(max-width:1000px)" srcset=Images/ShoulderImage.jpg>
+                        <img src="Images/ResumeProfile.jpg" alt="ResumeProfile">
+                    </picture>
+                </div>
+                <h1 class="Oteng Milleny Morei">Oteng Milleny Morei</h1>
+                <p class="intro">An Introductory personal statement </p>
+            </div>
+
+            <article>
+                <h2 id="education">Education</h2>
+                <h3> Intro to Web at <a href="https://codespaceacademy.com">CodeSpace Academy</a></h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo
+                    consequat. </p>
+                <h3> Qualification 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo
+                    consequat. </p>
+                <hr>
+                <h2 id="experience">Experience</h2>
+                <div class="Exp">
+                    <div>
+                        <h3>Job 1</h3>
+                        <li>A sentence about the responsibilities of the job.</li>
+                        <li>A sentence about the responsibilities of the job.</li>
+                        <li>A sentence about the responsibilities of the job.</li>
+                        <li>A sentence about the responsibilities of the job.</li>
+                        <li>A sentence about the responsibilities of the job.</li>
+                    </div>
+                    <div class="Job2">
+                        <h3>Job 2</h3>
+                        <li>A sentence about the responsibilities of the job.</li>
+                        <li>A sentence about the responsibilities of the job.</li>
+                        <li>A sentence about the responsibilities of the job.</li>
+                        <li>A sentence about the responsibilities of the job.</li>
+                        <li>A sentence about the responsibilities of the job.</li>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <header>
+                <h2>Menu </h2>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </header>
+            <hr>
+            <h2>Skills</h2>
+            <li>Skill 1</li>
+            <li>Skill 2 </li>
+            <li>Skill 3</li>
+            <li>Skill 4 </li>
+            <hr>
+            <h2 id="Contact Details">Contact Details</h2>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+            </p>
+            <hr>
+            <h2>Send me a message</h2>
+            <form action="https://formsubmit.co/your-email-here" method="POST">
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Choose a subject:</option>
+                    <option value="Job Inquiry">Job Inquiry</option>
+                    <option value="Freelance Work">Collaboration</option>
+                    <option value="Networking">Business Proposal</option>
+                    <option value="Freelance Work">Freelance Work</option>
+                    <option value="Networking">Networking</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br />
+
+                <label for="message">Message (Optional):</label>
+                <textarea id="message" name="message"></textarea>
+
+                <br />
+
+                <input type="submit" value="Submit">
+            </form>
+
+        </footer>
+</body>
+
+</html>
